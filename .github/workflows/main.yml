@@ -14,9 +14,32 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Set up Rust
       uses: actions/setup-rust@v1
       with:
         rust-version: stable
+
     - name: Build
-      run: cargo build --verbose
+      run: make release
+      working-directory: ./baseball_crud
+
+    - name: Lint
+      run: make lint
+      working-directory: ./baseball_crud
+    
+    - name: Format
+      run: make format
+      working-directory: ./baseball_crud
+
+    - name: Test
+      run: make test
+      working-directory: ./baseball_crud
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: baseball_crud_binary
+        path: baseball_crud/target/release/baseball_crud
+
+    
