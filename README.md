@@ -1,5 +1,6 @@
 # Individual Project 2 - Rust CLI CRUD Operations
 
+[![Rust Build](https://github.com/mkeohane01/Project-2-IDS/actions/workflows/main.yml/badge.svg)](https://github.com/mkeohane01/Project-2-IDS/actions/workflows/main.yml)
 
 ## Explanation of the project:
  - This project contains code working with a Baseball SQLite database in RUST.
