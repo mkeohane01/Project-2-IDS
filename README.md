@@ -19,4 +19,4 @@
     - ```make delete```
 
 ## Dependencies and how to install them:
--     This section should list the dependencies required to run the program and provide instructions on how to install them.
+-   rusqlite = "0.25.0"
