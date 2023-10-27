@@ -24,7 +24,7 @@ jobs:
       working-directory: ./baseball_crud
     
     - name: Format
-      run: make format
+      run: make fmt
       working-directory: ./baseball_crud
 
     - name: Test
