@@ -8,6 +8,7 @@
  - The script contained in baseball_crud allows users to query the BaseballDB database from the command line interface.
  - The use of Github Copilot helped me write the code for this project. While it only knew how to code using an older version of rusqlite, it was able to help me put my thoughts in to Rust.
     - I have done similar projects in python and Copilot helped me learn and implement Rust syntax to connect to and query a database.
+- Video Explination of project: [here](https://duke.zoom.us/rec/share/DLH7aG0oUzv3wiDXINxdeiTWEGOXWYy5mlDx-RjXuH4MaOZoIetl5Z70_SDLpAaI.V9dj4sWs_pwoltlI)
 
 ## How to run the program:
 - First move to the baseball_crud directory.
