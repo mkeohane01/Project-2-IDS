@@ -1,5 +1,4 @@
 use baseball_crud::execute_query;
-use rusqlite::Connection;
 
 #[test]
 fn test_baseball_structure() {
